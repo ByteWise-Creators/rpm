@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPM Travel World</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Explore the world with RPM Travel World. Offering tailor-made travel packages, guided tours, and unforgettable experiences for every traveler." />
+    <meta name="keywords"
+        content="Travel packages, Adventure tours, Family vacations, Budget travel, Tailor-made itineraries, Travel deals" />
+    <meta property="og:title" content="RPM Travel World | Your Gateway to Unforgettable Adventures" />
+    <meta property="og:description"
+        content="Join RPM Travel World for exclusive travel packages, guided tours, and personalized itineraries to explore the world's best destinations." />
+    <meta property="og:url" content="https://rpmtravelworld.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Home Page -->
+    <meta name="description"
+        content="Explore affordable travel packages to top destinations like Ooty, Munnar, and Mysore. Enjoy customized tours, on-time boarding, and experienced drivers for a hassle-free journey." />
+    <meta name="keywords"
+        content="Affordable travel packages, Best travel agency for Ooty trips, Customized travel vehicles, On-time boarding service, Experienced travel drivers, Adventure trips to Munnar, Guided tours in Ooty, Best family vacation spots, Travel with safety and comfort" />
+
+    <!-- About Us Page -->
+    <meta property="og:title" content="About RPM Travel World | Reliable Travel Solutions" />
+    <meta property="og:description"
+        content="Discover RPM Travel World—your trusted partner for affordable tour packages, reliable pick-up services, and unforgettable travel experiences." />
+
+    <!-- Specializations Page -->
+    <meta property="og:title" content="Our Specializations at RPM Travel World" />
+    <meta property="og:description"
+        content="Best prices, on-time boarding, experienced drivers, and customized vehicle options for all your travel needs." />
+
+    <!-- Destinations Page -->
+    <meta property="og:title" content="Top Travel Destinations | RPM Travel World" />
+    <meta property="og:description"
+        content="Book your travel to Ooty, Munnar, Nandi Hills, and more with RPM Travel World. Affordable packages and reliable services await you." />
+
+    <!-- Contact Us Page -->
+    <meta property="og:title" content="Contact RPM Travel World | Book Your Travel Slot" />
+    <meta property="og:description"
+        content="Get in touch with RPM Travel World today. Book your safe, comfortable travel experience with reliable, affordable solutions." />
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader-container">
+        <div class="image-container">
+            <img src="./Assets/logo/Logo-png.png" alt="ByteWise Creators" class="img">
+        </div>
+        <div class="loader"></div>
+    </div>
+
+    <div class="rpm-travel-world">
+
+        <!-- Navbar -->
+        <nav class="navbar fixed-top">
+            <div class="nav-branding">
+                <a href="/" class="navbar-branding">
+                    <img src="./Assets/logo/Logo-png-1.png" alt="logo" height="50">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" id="ham">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav-elements" id="mob-nav">
+                <i class="bi bi-x-lg close-icon" id="close"></i>
+                <li class="nav-items"><a href="#hero" class="nav-links" onclick="closeNav()">Home</a></li>
+                <li class="nav-items"><a href="#about" class="nav-links" onclick="closeNav()">About</a></li>
+                <li class="nav-items"><a href="#specializations" class="nav-links" onclick="closeNav()">Our
+                        Specializations</a></li>
+                <li class="nav-items"><a href="#destinations" class="nav-links" onclick="closeNav()">Destinations</a>
+                </li>
+                <li class="nav-items"><a href="#gallery" class="nav-links" onclick="closeNav()">Gallery</a></li>
+                <a href="#contact" class="button bookslot-smallscreen" onclick="closeNav()">Book your slot</a>
+            </ul>
+            <a href="#contact" class="button bookslot-bigscreen">Book your slot</a>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <video autoplay muted loop playsinline id="hero-video">
+                <source
+                    src="https://firebasestorage.googleapis.com/v0/b/rpmtravelworld.appspot.com/o/rpm-hero-video.mp4?alt=media&token=f43872e3-b578-4515-ad79-c466020f89d1"
+                    type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-bg">
+            </div>
+            <div class="hero-content">
+                <h1>Welcome to RPM Travel World</h1>
+                <p>Explore the world with us.</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="rpm-about" id="about">
+            <div class="container pt-5 pb-3">
+                <h1 class="text-center page-title pt-2">About Us</h1>
+                <div class="row py-1">
+                    <div class="col-md-6 col-lg-6 col-sm-12 pr-5 about-left-img">
+                        <div class="about-img-wrapper">
+                            <img src="./Assets/img/about-1.jpg" alt="">
+                            <img src="./Assets/img/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <p class="about-right-para">
+                            Welcome to RPM Travel World, your go-to solution for all travel needs. We offer reliable
+                            pick-up
+                            and drop services, ensuring you reach your destination on time, every time. With just one
+                            call,
+                            we’ll be there to pick you up and take you wherever you need to go. We also offer affordable
+                            and
+                            exciting tour packages, making your travel experience enjoyable and hassle-free. At RPM
+                            Travel
+                            World, our priority is to make your journey smooth, comfortable, and memorable. Trust us to
+                            handle your travel, so you can focus on enjoying the ride.
+                        </p>
+                        <a href="#destinations" class="btn btn-outline-primary about-btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Specializations -->
+        <section class="rpm-specialization" id="specializations">
+            <div class="fluid-container container py-5 px-4">
+                <h1 class="text-center page-title">Our specialization</h1>
+                <div class="row sepc-space">
+                    <div class="col-md-6 col-lg-3 p-2">
+                        <div class="specialization-card">
+                            <div class="specs-icon-container">
+                                <img src="./Assets/icons/best-price.png" class="spec-icon" alt="Best Price Image">
+                            </div>
+                            <div class="specs-description">
+                                <h1 class="specs-heading">BEST PRICE</h1>
+                                <p class="specs-para">Affortable travel packages with unbeatable value for every trip.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 p-2">
+                        <div class="specialization-card">
+                            <div class="specs-icon-container">
+                                <img src="./Assets/icons/on-time-boarding.png" class="spec-icon"
+                                    alt="Custom Vehicle Image">
+                            </div>
+                            <div class="specs-description">
+                                <h1 class="specs-heading">ON TIME BOARDING</h1>
+                                <p class="specs-para">Reliable, timely reservations to ensure a hassle-free journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 p-2">
+                        <div class="specialization-card">
+                            <div class="specs-icon-container">
+                                <img src="./Assets/icons/experience-driver.png" class="spec-icon" alt="Driver Image">
+                            </div>
+                            <div class="specs-description">
+                                <h1 class="specs-heading">EXPERIECED DRIVER</h1>
+                                <p class="specs-para">Professional drivers ensuring safety and comfort throughout.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 p-2">
+                        <div class="specialization-card">
+                            <div class="specs-icon-container">
+                                <img src="./Assets/icons/custom-vehicle.png" class="spec-icon" alt="Timing Image">
+                            </div>
+                            <div class="specs-description">
+                                <h1 class="specs-heading">CUSTOM VEHICLE</h1>
+                                <p class="specs-para">Personalized Vehicle options tailored to your travel needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destination -->
+        <section id="destinations">
+            <h1 class="text-center page-title pb-5">Destinations</h1>
+            <div class="container">
+                <div class="row">
+                    <!-- Country Images -->
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Aadiyogi.png" alt="Aadiyogi">
+                            <div class="country-name">Aadiyogi</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Chikmagaluru.jpg" alt="Chikmagaluru">
+                            <div class="country-name">Chikmagaluru</div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="country-box">
+                        <img src="./Assets/destination/dharmasthala.jpg" alt="Dharmasthala">
+                        <div class="country-name">Dharmasthala</div>
+                    </div>
+                </div> -->
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/hogenakkal.webp" alt="Hogenakkal">
+                            <div class="country-name">Hogenakkal</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/kalashree.jpg" alt="Kalashree">
+                            <div class="country-name">Kalashree</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/kanipakam.jpg" alt="Kanipakam">
+                            <div class="country-name">Kanipakam</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/kollimalai.jpg" alt="Kolli Hills">
+                            <div class="country-name">Kolli Hills</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/kotilingeshwara.jpg" alt="Kotilingeshwara">
+                            <div class="country-name">Kotilingeshwara</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/madikeri.jpg" alt="Madikeri">
+                            <div class="country-name">Madikeri</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Munnar.jpg" alt="Munnar">
+                            <div class="country-name">Munnar</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Mysore.jpeg" alt="Mysore">
+                            <div class="country-name">Mysore</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Nandihills.jpg" alt="Nandi Hills">
+                            <div class="country-name">Nandi Hills</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/ooty.webp" alt="Ooty">
+                            <div class="country-name">Ooty</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Shivamsamudra.webp" alt="Shivam Samudra">
+                            <div class="country-name">ShivamSamudra</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Tirupati.jpg" alt="Tirupati">
+                            <div class="country-name">Tirupati</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Yarcad.jpg" alt="Yarcad">
+                            <div class="country-name">Yarcad</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="country-box">
+                            <img src="./Assets/destination/Yelagiri.jpg" alt="Yelagiri">
+                            <div class="country-name">Yelagiri</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our gallery -->
+        <section class="our-gallery" id="gallery">
+            <div class="container py-4">
+                <h1 class="text-center page-title py-5">Our Gallery</h1>
+                <div class="row ">
+
+                    <!-- Rumion -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="our-gallery-card card">
+                            <div class="img-container">
+                                <img src="./Assets/img/rumion.png" class="card-img" alt="Rumion">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h4 class="card-title">Rumion</h4>
+                                        <a class="atag" href="#contact">Book Now</a>
+                                    </div>
+                                    <div class="hr"></div>
+                                    <div class="d-flex gap-3 g-card-others">
+                                        <div>
+                                            <div class="mb-1"><span>Seater:</span> 7 </div>
+                                            <div><span>Airbag:</span> 4 </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-1"><span>Luggage:</span> 209 L </div>
+                                            <div><span>Weight:</span> 570 to 590 kg </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-1"><span>Dimensions:</span> 4420 L x 1735 W x 1690 H </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Corolla -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="our-gallery-card card">
+                            <div class="img-container">
+                                <img src="./Assets/img/corolla.png" class="card-img" alt="Corolla">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h4 class="card-title">Corolla</h4>
+                                        <a class="atag" href="#contact">Book Now</a>
+                                    </div>
+                                    <div class="hr"></div>
+                                    <div class="d-flex gap-3 g-card-others">
+                                        <div>
+                                            <div class="mb-1"><span>Seater:</span> 5 </div>
+                                            <div><span>Airbag:</span> 8 </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-1"><span>Luggage:</span> 209 L </div>
+                                            <div><span>Weight:</span> 1170 to 1250 kg </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-1"><span>Dimensions:</span> 4530 L x 1705 W x 2600 H </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ertiga -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="our-gallery-card card">
+                            <div class="img-container">
+                                <img src="./Assets/img/ertiga.png" class="card-img" alt="Ertiga">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h4 class="card-title">Ertiga</h4>
+                                        <a class="atag" href="#contact">Book Now</a>
+                                    </div>
+                                    <div class="hr"></div>
+                                    <div class="d-flex gap-3 g-card-others">
+                                        <div>
+                                            <div class="mb-1"><span>Seater:</span> 7 </div>
+                                            <div><span>Airbag:</span> 4 </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-1"><span>Luggage:</span> 209 L </div>
+                                            <div><span>Weight:</span> 1150 to 1255 kg </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-1"><span>Dimensions:</span> 4395 L x 1735 W x 1690 H </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dzire -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="our-gallery-card card">
+                            <div class="img-container">
+                                <img src="./Assets/img/dzire.png" class="card-img" alt="Dzire">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h4 class="card-title">Dzire</h4>
+                                        <a class="atag" href="#contact">Book Now</a>
+                                    </div>
+                                    <div class="hr"></div>
+                                    <div class="d-flex gap-3 g-card-others">
+                                        <div>
+                                            <div class="mb-1"><span>Seater:</span> 5 </div>
+                                            <div><span>Airbag:</span> 2 </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-1"><span>Luggage:</span> 378 L </div>
+                                            <div><span>Weight:</span> 880 to 995 kg </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-1"><span>Dimensions:</span> 3995 L x 1735 W x 1515 H </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Aura -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="our-gallery-card card">
+                            <div class="img-container">
+                                <img src="./Assets/img/aura.png" class="card-img" alt="Aura">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h4 class="card-title">Aura</h4>
+                                        <a class="atag" href="#contact">Book Now</a>
+                                    </div>
+                                    <div class="hr"></div>
+                                    <div class="d-flex gap-3 g-card-others">
+                                        <div>
+                                            <div class="mb-1"><span>Seater:</span> 5 </div>
+                                            <div><span>Airbag:</span> 6 </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-1"><span>Luggage:</span> 402 L </div>
+                                            <div><span>Weight:</span> 978 to 1064 kg </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-1"><span>Dimensions:</span> 3995 L x 1680 W x 1520 H </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Platinum -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="our-gallery-card card">
+                            <div class="img-container">
+                                <img src="./Assets/img/platinum.png" class="card-img" alt="Platinum">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h4 class="card-title">Platinum</h4>
+                                        <a class="atag" href="#contact">Book Now</a>
+                                    </div>
+                                    <div class="hr"></div>
+                                    <div class="d-flex gap-3 g-card-others">
+                                        <div>
+                                            <div class="mb-1"><span>Seater:</span> 7 </div>
+                                            <div><span>Airbag:</span> 4 </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-1"><span>Luggage:</span> 209 L </div>
+                                            <div><span>Weight:</span> 1160 to 1240 kg </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-1"><span>Dimensions:</span> 4450 L x 1745 W x 1620 H </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Innova -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="our-gallery-card card">
+                            <div class="img-container">
+                                <img src="./Assets/img/innova.png" class="card-img" alt="Platinum">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h4 class="card-title">Innova</h4>
+                                        <a class="atag" href="#contact">Book Now</a>
+                                    </div>
+                                    <div class="hr"></div>
+                                    <div class="d-flex gap-3 g-card-others">
+                                        <div>
+                                            <div class="mb-1"><span>Seater:</span> 7 </div>
+                                            <div><span>Airbag:</span> 7 </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-1"><span>Luggage:</span> 300 L </div>
+                                            <div><span>Weight:</span> 1855 kg </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-1"><span>Dimensions:</span> 4735 L x 1830 W x 2750 H </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="contact_us_2">
+                <div class="responsive-container-block big-container">
+                    <div class="blueBG"></div>
+                    <div class="responsive-container-block container">
+                        <form class="form-box" id="contactForm">
+                            <div class="container-block form-wrapper">
+                                <p class="text-blk contactus-head">CONTACT US</p>
+                                <p class="text-blk contactus-subhead">For your safety and peaceful journey</p>
+                                <div class="responsive-container-block">
+                                    <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6">
+                                        <p class="text-blk input-title">FIRST NAME *</p>
+                                        <input class="input" id="firstName" name="FirstName"
+                                            placeholder="Please enter first name...">
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                        <p class="text-blk input-title">LAST NAME</p>
+                                        <input class="input" id="lastName" name="Last Name"
+                                            placeholder="Please enter last name...">
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                        <p class="text-blk input-title">EMAIL *</p>
+                                        <input class="input" id="email" name="Email"
+                                            placeholder="Please enter email...">
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                        <p class="text-blk input-title">PHONE NUMBER *</p>
+                                        <input class="input" id="phone" name="PhoneNumber"
+                                            placeholder="Please enter phone number...">
+                                    </div>
+                                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12">
+                                        <p class="text-blk input-title">WHAT DO YOU HAVE IN MIND</p>
+                                        <textarea class="textinput" id="msg"
+                                            placeholder="Please enter query..."></textarea>
+                                    </div>
+                                </div>
+                                <button type="button" class="submit-btn" onclick="sendWhatsAppMessage()">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+            </ul>
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="#hero">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
+                <li class="menu__item"><a class="menu__link" href="#specializations">Specialization</a></li>
+                <li class="menu__item"><a class="menu__link" href="#gallery">Gallery</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contact">Contact Us</a></li>
+            </ul>
+            <p class="text-center">&copy;<span id="year"></span> RPM Travel World | All Rights Reserved</p>
+        </footer>
+
+        <!-- Call button -->
+        <div class="phone">
+            <a href="#" class="phone-btn btn btn-success" id="phoneButton"><i class="bi-telephone-fill"></i></a>
+        </div>
+
+    </div>
+
+    <!-- Popup -->
+    <div id="popup" class="popup" style="display:none;">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <img src="./Assets/img/god.jpg" alt="Popup Image">
+        </div>
+    </div>
+
+    <!-- Footer CDN -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
